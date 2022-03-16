@@ -1,0 +1,77 @@
+    1  cd /Desktop
+    2  pwd
+    3  cd Desktop
+    4  mkdir planets
+    5  ls
+    6  cd planets
+    7  git config list
+    8  git config ls
+    9  git config -h
+   10  --global user.name "joanna"
+   11   git config --global
+   12  git config --list
+   13  git config --global user.name
+   14  git config --global user.name "joanna"
+   15  git config --list
+   16  git config --global user.email "j.przedlacka@gmail.com"
+   17  git config --list
+   18  git init
+   19  ls .*
+   20  git status
+   21  git checkout -b main
+   22  git status
+   23  mkdir moons
+   24  cd moons
+   25  git status
+   26  nano ../earth.txt
+   27  ls ..
+   28  git status
+   29  cd ..
+   30  git add earth.txt
+   31  git status
+   32  git commit -m "my first change"
+   33  git log
+   34  touch jupiter.txt
+   35  ls -lht
+   36  touch earth.txt
+   37  touch earth.txt
+   38  git add .
+   39  git commit -m "added new file"
+   40  git log
+   41  cd ..
+   42  pwd
+   43  mkdir sthughs
+   44  pwd
+   45  cd /sthughs
+   46  cd sthughs
+   47  git status
+   48  git init
+   49  touch maplethorpe.txt
+   50  nano maplethorpe.txt
+   51  git add maplethorpe.txt
+   52  nano maplethorpe.txt
+   53  git add .
+   54  git commit -m "added new file"
+   55  git status
+   56  git log
+   57  history > history1.txt
+   58  ls
+   59  nano history1.txt
+   60  cd ~/Desktop
+   61  cd sthughs
+   62  git init
+   63  cd ../ planets
+   64  cd ../planets
+   65  git status
+   66  git show HEAD
+   67  git show HEAD earth.txt
+   68  git show HEAD~1 earth.txt
+   69  git diff HEAD~1 earth.txt
+   70  nano earth.txt
+   71  diff  HEAD earth.txt
+   72  git diff HEAD earth.txt
+   73  git log
+   74  git add earth.txt
+   75  git commit -m "3rd line"
+   76  git diff b18dbe409af08f954f6ee793b47a6dde08d241bb earth.txt
+   77  history > history2.txt
